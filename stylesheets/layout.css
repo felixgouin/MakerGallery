@@ -65,3 +65,12 @@ body {
 .tool-name {
 		background-color:	#737164;
 }
+
+.embed iframe {
+		height: 		250;
+		width:			400px;
+}
+
+.embed span {
+		width:			100%;
+}
