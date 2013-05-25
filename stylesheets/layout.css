@@ -1,43 +1,68 @@
-.sidebar {
-    float: left;
-    width: 18%;  
-    padding-top: 5%;
-    padding-left: 1%;
-    padding-right: 1%;
-    position: fixed;
-    text-align: justify;
+@charset "utf-8";
+
+/**
+ * Stylesheet Index:
+ * =================
+ *
+ * 0. Reset
+ * 1. Imports
+ * 2. Elements
+ * 3. ID & Class
+ * 4. Pseudoclass
+ * 5. Media Queries
+**/
+
+/* 0. Reset */
+
+/* 1. Imports */
+
+/* 2. Elements */
+body {
+		font-family:		sans-serif;
+		font-size:		1.09em; 
 }
 
-.sidebar content{
-    text-align: justify;
+hr {
+		border:			1px solid;
+		border-color:		#aaa transparent #fff;
+		clear:			both;
 }
 
-.sidebar h1{
-    text-align: center;
+/* 3. ID & Class */
+
+#avatar {
+		padding: 		0px 50px;
+		width: 			125;
 }
 
-header {
-    margin-left: 20.7%;
-    position: fixed;
-    height: 100px;
-    width: 78%;
-    background-color: ;
-    text-align: center;
+#page {
+		transform:		scale(0.6);
+		width:			1050px;
+		height:			650px;
+		margin-left:		-225px;
+		margin-top:		-125px;
+}
+
+#popcorn-video {
+		margin-top:		15px;
+}
+
+.caption {
+		font-size:		1rem;
+		font-weight: 		bold;
+}
+
+.content {
+		text-align:		justify;
+		padding-left: 		15%;
+		padding-right:		15%;
 }
 
 .content_wrapper {
-   position: static;
-
-   float: right;
-   width: 79%;  
-
-
-   background-color: #D7D3C8;
-}
-
-body {
-   font-family: sans-serif;
-   font-size: 1.09em; 
+		margin-top:		-10px;
+		float:			right;
+		width:			79%;  
+		background-color:	#D7D3C8;
 }
 
 .embed	{
@@ -46,31 +71,61 @@ body {
 		border-top:		20px;
 		border-radius:		5px;
 		color:			grey;
-		float:			left;
 		font-family:		'Open Sans Light','Open Sans',sans-serif;
 		font-size:		14px;
-		height:			333px;
+		height:			480px;
 		line-height:		20px;
 		margin:			20px;
 		overflow:		hidden;
-		padding-top:		10px;
-		padding-left: 		20px;
-		padding-right:		20px;
-		padding-bottom:		10px;
+		padding-top:		20px;
+		padding-left: 		50px;
+		padding-right:		10px;
+		padding-bottom:		20px;
 		position:		relative;
 		text-align:		justify;
-		width:			400px;
-}
-
-.tool-name {
-		background-color:	#737164;
+		width:			640px;
 }
 
 .embed iframe {
-		height: 		250;
-		width:			400px;
+		height: 		400px;
+		width:			600px;
 }
 
 .embed span {
 		width:			100%;
 }
+
+.sidebar {
+		float:			left;
+		width:			18%;
+		padding-top:		5%;
+		padding-left:		1%;
+		padding-right:		1%;
+		position:		fixed;
+		text-align:		justify;
+}
+
+.sidebar h1{
+		text-align:		center;
+}
+
+.sidebar introduction{
+		text-align:		justify;
+}
+
+
+.tool-name {
+		margin-top:		-20px;
+		padding-top:		10px;
+		background-color:	#737164;
+}
+
+.tool-name h4 {
+		margin-top:		-1px;
+		margin-bottom:		-1px;
+		text-align:		center;
+}
+
+/* 4. Pseudoclass */
+
+/* 5. Media Queries */
