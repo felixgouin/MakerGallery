@@ -22,6 +22,23 @@ body {
 		font-size:		1.09em; 
 }
 
+header {
+    position:fixed;
+    top: 0;
+    right: 0;
+    height: 90px;
+    background-color: #959386;
+    color: #333444;
+    text-align: center;
+    width: 100%;
+    z-index: 9;
+
+    -webkit-box-shadow: 0px 0px 8px 2px #000000;
+       -moz-box-shadow: 0px 0px 8px 2px #000000;
+            box-shadow: 0px 0px 8px 2px #000000;
+
+}
+
 hr {
 		border:			1px solid;
 		border-color:		#aaa transparent #fff;
@@ -98,7 +115,7 @@ hr {
 .sidebar {
 		float:			left;
 		width:			18%;
-		padding-top:		5%;
+		padding-top:		7%;
 		padding-left:		1%;
 		padding-right:		1%;
 		position:		fixed;
