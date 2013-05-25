@@ -2,31 +2,49 @@
 	<head>
     		<!-- le meta tags -->
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
- 		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta content="width=device-width" name="viewport">
+ 		<meta content="chrome=1" http-equiv="X-UA-Compatible">
 
 		<!-- le title -->
 		<title>Maker Gallery</title>
 
 		<!-- le favicon -->
-		<link rel="icon" href="images/webmaker_logo.png">
+		<link href="images/webmaker_logo.png" rel="icon">
 
 		<!-- le stylesheets -->
-		<link rel="stylesheet" href="stylesheets/layout.css">
+		<link href="stylesheets/layout.css" rel="stylesheet">
 
 	</head>
 
 	<body>
 		<div class="sidebar">
 			<!-- le avatar / image-->
-			<img id="avatar" src="http://www.cdpe.com/assets/images/cdpe-profile-placeholder.png" alt="My awesome picture"/>
+			<img alt="My awesome picture" id="avatar" src="http://www.cdpe.com/assets/images/cdpe-profile-placeholder.png"/>
 			<h1>MY NAME</h1>
 			<div class="introduction">
 				<p>Here's my introduction where I give a small gist of what I have done.</p>
 				<ul>
-					<li><a href="#goggles">X-Ray Goggles</a></li>
-					<li><a href="#thimble">Thimble</a></li>
-					<li><a href="#popcorn">Popcorn Maker</a></li>
+					<li>
+						<img src="images/goggles-icon.png"/>
+						<span class="list-tool-name">
+							<a href="#goggles">X-Ray Goggles</a>
+						</span>
+					</li>
+					<br/><br/>
+					<li>
+						<img src="images/thimble-icon.png"/>
+						<span class="list-tool-name">
+							<a href="#thimble">Thimble</a>
+						</span>
+					</li>
+					<br/><br/>
+					<li>
+						<img src="images/popcorn-icon.png"/>
+						<span class="list-tool-name">
+							<a href="#popcorn">Popcorn Maker</a>
+						</span>
+					</li>
+					<br/><br/>
 				</ul>
 			</div>
 		</div>
@@ -34,9 +52,9 @@
 		<!-- le page header-->
 		<header>
 			<p>
-				<img height="64" src="https://webmaker.org/media/img/header_logo.png" style="padding-left: 42px; float:left;" width="218"/>
-				<img src="http://i.imgur.com/fZqjmHw.png" style="float:left;"/>
-					<span style="float:left; font-size: 1.6em; margin-top: 15px; padding-left: 8%;">WebmakerTag: "Make up your own webmaker tag here."</span>
+				<img height="64" id="header-logo" src="https://webmaker.org/media/img/header_logo.png" width="218"/>
+				<img id="header-brace" src="http://i.imgur.com/fZqjmHw.png"/>
+					<span id="webmaker-tag">WebmakerTag: "Make up your own webmaker tag here."</span>
 			</p>
 		</header>
 
@@ -52,7 +70,7 @@
 				<div class="content">
 					<div class="embed">
 						<p><span class="caption">My Smurfy Remixed Goggles</span></p>
-						<iframe id="page" src="http://p.webremixes.org/gyfpmggp" frameborder="0"></iframe>
+						<iframe frameborder="0" id="page" src="http://p.webremixes.org/gyfpmggp"></iframe>
 					</div>
 				</div>
 			</section>
@@ -68,7 +86,7 @@
 				<div class="content">
 					<div class="embed">
 						<p><span class="caption">My Thimble Profile Page</span></p>
-						<iframe id="page" src="https://thimble.webmaker.org/p/lj1p" frameborder="0"></iframe>
+						<iframe frameborder="0" id="page" src="https://thimble.webmaker.org/p/lj1p"></iframe>
 					</div>
 				</div>
 			</section>
@@ -77,16 +95,16 @@
 				<div class="tool-name">
 					<h4>
 						<img src="images/popcorn-icon.png"/>
-						<div id="tool">Popcorn</div>
+						<div id="tool">Popcorn Maker</div>
 					</h4>
 					<hr/>	
 				</div>
 				<div class="content">
 					<div class="embed">
 						<p><span class="caption">My Popcorn Video Remix</span></p>
-						<iframe id="popcorn-video" src="http://popcorn.webmadecontent.org/r7_" frameborder="0"></iframe>
+						<iframe frameborder="0" id="popcorn-video" src="http://popcorn.webmadecontent.org/r7_"></iframe>
 					</div>
-				</div>
+				</div><br/>
 			</section>
 		</div>
 	</body>
